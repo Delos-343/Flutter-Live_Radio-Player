@@ -15,7 +15,11 @@ class MyApp extends StatelessWidget {
     return GetMaterialApp(
       title: 'HimaTekkom Radio',
       theme: ThemeData(
-        primarySwatch: Colors.blue,
+        textTheme: Theme.of(context).textTheme.apply(
+              bodyColor: Colors.white,
+              displayColor: Colors.white,
+            ),
+        primarySwatch: Colors.yellow[400],
       ),
       home: const HomeScreen(),
       getPages: [
