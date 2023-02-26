@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
-class SongModel extends StatelessWidget {
-  const SongModel({super.key});
+class RadioModel extends StatelessWidget {
+  const RadioModel({super.key});
 
   @override
   Widget build(BuildContext context) {
