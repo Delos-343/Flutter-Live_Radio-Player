@@ -19,12 +19,12 @@ class MyApp extends StatelessWidget {
               bodyColor: Colors.white,
               displayColor: Colors.white,
             ),
-        primarySwatch: Colors.yellow[400],
+        primarySwatch: Colors.yellow,
       ),
       home: const HomeScreen(),
       getPages: [
         GetPage(name: '/', page: () => HomeScreen()),
-        GetPage(name: '/song', page: () => SongScreen()),
+        GetPage(name: '/song', page: () => RadioScreen()),
         GetPage(name: '/playlist', page: () => PlaylistScreen()),
       ],
     );

@@ -2,8 +2,8 @@ import 'package:flutter/material.dart';
 
 import 'package:flutter/material.dart';
 
-class SongScreen extends StatelessWidget {
-  const SongScreen({super.key});
+class RadioScreen extends StatelessWidget {
+  const RadioScreen({super.key});
 
   @override
   Widget build(BuildContext context) {
