@@ -21,6 +21,11 @@ class HomeScreen extends StatelessWidget {
         appBar: AppBar(
           backgroundColor: Colors.transparent,
           elevation: 0,
+          title: Text('Hello World'),
+          titleTextStyle: TextStyle(
+            color: Colors.yellow.shade300,
+            fontSize: 50.0,
+          ),
         ),
         body: Container(),
       ),
