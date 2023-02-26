@@ -19,7 +19,7 @@ class MyApp extends StatelessWidget {
               bodyColor: Colors.white,
               displayColor: Colors.white,
             ),
-        primarySwatch: Colors.yellow,
+        primarySwatch: Colors.blue,
       ),
       home: const HomeScreen(),
       getPages: [
