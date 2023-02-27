@@ -9,7 +9,7 @@ class RadioCard extends StatelessWidget {
     required this.radio,
   }) : super(key: key);
 
-  final Radio radio;
+  final RadioChannel radio;
 
   @override
   Widget build(BuildContext context) {
