@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 
-import '../models/playlist_model.dart';
-import '../models/radio_model.dart';
+import '../models/models.dart';
 import '../widgets/widgets.dart';
 
 class HomeScreen extends StatelessWidget {
@@ -9,7 +8,7 @@ class HomeScreen extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    List<Radio> radiochannel = Radio.radiochannel;
+    List<RadioChannel> radiochannel = RadioChannel.radiochannel;
     List<Playlist> playlists = Playlist.playlists;
 
     return Container(
@@ -77,7 +76,7 @@ class _TrendingChannel extends StatelessWidget {
     required this.radiochannel,
   }) : super(key: key);
 
-  final List<Radio> radiochannel;
+  final List<RadioChannel> radiochannel;
 
   @override
   Widget build(BuildContext context) {
