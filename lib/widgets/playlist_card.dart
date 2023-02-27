@@ -22,7 +22,7 @@ class PlaylistCard extends StatelessWidget {
         margin: const EdgeInsets.only(bottom: 10),
         padding: const EdgeInsets.symmetric(horizontal: 20),
         decoration: BoxDecoration(
-          color: Colors.deepPurple.shade800.withOpacity(0.6),
+          color: Colors.yellow.shade800.withOpacity(0.6),
           borderRadius: BorderRadius.circular(15.0),
         ),
         child: Row(
@@ -62,7 +62,7 @@ class PlaylistCard extends StatelessWidget {
               onPressed: () {},
               icon: const Icon(
                 Icons.play_circle,
-                color: Colors.white,
+                color: Colors.black87,
               ),
             ),
           ],

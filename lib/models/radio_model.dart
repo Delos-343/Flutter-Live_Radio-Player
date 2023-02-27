@@ -13,14 +13,15 @@ class RadioChannel {
 
   static List<RadioChannel> radiochannel = [
     RadioChannel(
-      title: 'HimaTekkom',
-      description: 'B201',
-      url: 'assets/music/testvideo-1.mp3',
+      title: 'Prambors FM / Jakarta',
+      description: '116399',
+      url: 'assets/music/Dune OST - Ripples in the Sand (Hans Zimmer).mp3',
+      // url: 'http://masima.rastream.com/masima-pramborsjakarta?',
       coverUrl: 'assets/images/glass.jpg',
     ),
     RadioChannel(
-      title: 'HMTC',
-      description: 'IF2020',
+      title: 'HMTK',
+      description: 'B201',
       url: 'assets/music/testvideo-2.mp3',
       coverUrl: 'assets/images/illusions.jpg',
     ),
