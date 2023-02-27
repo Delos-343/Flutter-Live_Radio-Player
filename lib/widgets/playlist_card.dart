@@ -51,7 +51,7 @@ class PlaylistCard extends StatelessWidget {
                         .copyWith(fontWeight: FontWeight.bold),
                   ),
                   Text(
-                    '${playlist.radiochannel.length} songs',
+                    '${playlist.radiochannel.length} Streams',
                     maxLines: 2,
                     style: Theme.of(context).textTheme.bodySmall,
                   ),
