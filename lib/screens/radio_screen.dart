@@ -13,13 +13,11 @@ class RadioScreen extends StatefulWidget {
 
   @override
   State<RadioScreen> createState() => _RadioScreenState();
-
-  }
 }
 
 class _RadioScreenState extends State<RadioScreen> {
   AudioPlayer audioPlayer = AudioPlayer();
-  Radio radio = Get.arguments ?? Radio.radiochannel[0];
+  RadioChannel radio = Get.arguments ?? RadioChannel.radiochannel[0];
 
   @override
   void initState() {
@@ -90,7 +88,7 @@ class _RadioPlayer extends StatelessWidget {
   })  : _seekBarDataStream = seekBarDataStream,
         super(key: key);
 
-  final Radio radio;
+  final RadioChannel radio;
   final Stream<SeekBarData> _seekBarDataStream;
   final AudioPlayer audioPlayer;
 
