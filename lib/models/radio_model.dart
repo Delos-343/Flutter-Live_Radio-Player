@@ -19,20 +19,20 @@ class RadioChannel {
       // description: '116399',
       url: 'assets/music/Dune OST - Ripples in the Sand (Hans Zimmer).mp3',
       // url: 'http://masima.rastream.com/masima-pramborsjakarta?',
-      coverUrl: 'assets/images/arrakeen.jpg',
+      coverUrl: '.../assets/images/arrakeen.jpg',
     ),
     RadioChannel(
       title: 'Voice of the Gravitar',
       description: 'Y2323',
       url: 'assets/music/The Expanse OST - To Ilus (Clinton Shorter).mp3.mp3',
-      coverUrl: 'assets/images/slow-zone.jpg',
+      coverUrl: '.../assets/images/slow-zone.jpg',
     ),
     RadioChannel(
       title: 'Khar-Toba',
       description: '2019',
       url:
           'assets/music/Homeworld RM OST - Assault on Chimera (Paul Ruskay).mp3',
-      coverUrl: 'assets/images/hw3-gate.png',
+      coverUrl: '.../assets/images/hw3-gate.png',
     )
   ];
 }
