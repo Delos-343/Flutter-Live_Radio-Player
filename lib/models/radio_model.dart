@@ -13,7 +13,8 @@ class RadioChannel {
 
   static List<RadioChannel> radiochannel = [
     RadioChannel(
-      title: 'Prambors FM / Jakarta',
+      title: 'Butlerian Jihad',
+      // title: 'Prambors FM / Jakarta',
       description: '116399',
       url: 'assets/music/Dune OST - Ripples in the Sand (Hans Zimmer).mp3',
       // url: 'http://masima.rastream.com/masima-pramborsjakarta?',
