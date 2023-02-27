@@ -9,6 +9,9 @@ class HomeScreen extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    List<Radio> radiochannel = Radio.radiochannel;
+    List<Playlist> playlists = Playlist.playlists;
+
     return Container(
       decoration: BoxDecoration(
         gradient: LinearGradient(
@@ -28,7 +31,7 @@ class HomeScreen extends StatelessWidget {
           child: Column(
             children: [
               const _DiscoverMore(),
-              _TrendingChannel(songs: songs),
+              _TrendingChannel(radiochannel: radiochannel),
               _PlaylistChannel(playlists: playlists),
             ],
           ),
@@ -71,10 +74,10 @@ class _PlaylistChannel extends StatelessWidget {
 class _TrendingChannel extends StatelessWidget {
   const _TrendingChannel({
     Key? key,
-    required this.songs,
+    required this.radiochannel,
   }) : super(key: key);
 
-  final List<Song> songs;
+  final List<Radio> radiochannel;
 
   @override
   Widget build(BuildContext context) {
@@ -95,9 +98,9 @@ class _TrendingChannel extends StatelessWidget {
             height: MediaQuery.of(context).size.height * 0.27,
             child: ListView.builder(
               scrollDirection: Axis.horizontal,
-              itemCount: songs.length,
+              itemCount: radiochannel.length,
               itemBuilder: (context, index) {
-                return SongCard(song: songs[index]);
+                return RadioCard(radio: radiochannel[index]);
               },
             ),
           ),
